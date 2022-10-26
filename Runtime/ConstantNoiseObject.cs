@@ -44,7 +44,7 @@ public class DistanceCurveNoiseObject : TerrainNoiseObject
 
     public override void Intialize(int Seed, float Scale)
     {
-        this.scale = Scale;
+        
     }
 
 
