@@ -8,7 +8,7 @@ public class DistanceCurveNoiseObject : TerrainNoiseObject
 {
     
     [SerializeField]
-    private float scale = 2, max = 1;
+    private float scale = 2;
     [SerializeField]
     private AnimationCurve curve;
     public override bool isValid {get => true;}
