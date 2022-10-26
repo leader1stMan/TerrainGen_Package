@@ -8,8 +8,8 @@ public class ConstantNoiseObject : TerrainNoiseObject
     
     [SerializeField]
     private float height = 2;
-    TerrainNoise myNoise;
-    public override bool isValid {get => (myNoise != null);}
+    
+    public override bool isValid {get => true;}
 
     public override float getHeight(Vector2 pos){
 
