@@ -471,7 +471,8 @@ public class WorldGen : MonoBehaviour {
 		ClearChildren(tile);
 		//Check if DecorChanceMap has been generated.
 		if(DecorChanceMap == null)
-		{	PrepareNoise(ref DecorChanceMap);
+		{	
+			PrepareNoise(ref DecorChanceMap);
 			DecorChanceMap.Intialize(Seeds[OctaveCount+1], 20);
 		}
 		//Find the bounds of the Tile
